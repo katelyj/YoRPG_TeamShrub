@@ -30,4 +30,9 @@ public class Mage extends Character {
 	return "Mage: Mages are masters of the arcane arts. They rely on powerful spells to combat their enemies through a combination of destruction, illusions, and conjurations. However years of training with the mind has left their body weak and feeble. They are unable to utilize heavy armor effectively making them vulnerable to physical harm.";
     }
 
+    public void specialize() {
+        _attack = .75;
+	_defense = 20;
+    }
+
 }//end class Mage

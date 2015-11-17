@@ -15,6 +15,11 @@ public abstract class Character {
     protected int _defense;
     protected double _attack;
 
+    //abstract methods
+
+    public abstract String about();
+    public abstract void specialize();
+
     //accessors
 
     public int getDefense() { return _defense; }
@@ -44,16 +49,10 @@ public abstract class Character {
         _hitPts = _hitPts - damageInflicted;
     }
 
-    public void specialize() {
-	_attack = .75;
-	_defense = 20;
-    }
-
     public void normalize() {
 	_attack = .4;
 	_defense = 40;
     }
 
-    public abstract String about();
 
 }//end of class
