@@ -19,7 +19,8 @@ public abstract class Character {
 
     public abstract String about();
     public abstract void specialize();
-
+    public abstract void normalize();
+    
     //accessors
 
     public int getDefense() { return _defense; }
@@ -47,11 +48,6 @@ public abstract class Character {
 
     public void lowerHP( int damageInflicted ) {
         _hitPts = _hitPts - damageInflicted;
-    }
-
-    public void normalize() {
-	_attack = .4;
-	_defense = 40;
     }
 
 

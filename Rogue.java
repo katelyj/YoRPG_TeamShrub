@@ -34,5 +34,16 @@ public class Rogue extends Character {
         _attack = .75;
 	_defense = 20;
     }
+    public void normalize(){
+	_attack = .4;
+	_defense = 40;
+    }
+
+    public void normalize(){
+	_attack = .4;
+	_defense = 40;
+    }
+
+
 
 }//end class Rogue

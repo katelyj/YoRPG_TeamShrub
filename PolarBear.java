@@ -35,4 +35,10 @@ public class PolarBear extends Character {
 	_defense = 20;
     }
 
+    public void normalize(){
+	_attack = .4;
+	_defense = 40;
+    }
+
+
 }//end class PolarBear

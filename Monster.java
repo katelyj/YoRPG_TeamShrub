@@ -25,5 +25,10 @@ public class Monster extends Character {
     public void specialize() {
 
     }
+    public void normalize(){
+       
+    }
+
+
     
 }//end class Monster
