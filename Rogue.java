@@ -30,9 +30,4 @@ public class Rogue extends Character {
 	return "Rouges: Rogues are master of dark, they are those who walks alone. Dexterity and agility allow rouges to stealthily avoid enemies by picking locks and stealing items of importance. Rogues would much rather stab their enemies in the back than face them head on. Though they are unable to withstand large amounts of damage, rogues are extraordinarily good at dodging attacks and quickly dealing with their enemies through trickery and poisons.";
     }
 
-    public void specialize() {
-        _attack = .75;
-	_defense = 20;
-    }
-
 }//end class Rogue

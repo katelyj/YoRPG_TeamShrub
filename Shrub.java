@@ -30,9 +30,4 @@ public class Shrub extends Character {
 	return "Shrubs: Shrubs are a shrub. These tankish archers have colossal amounts of health and often defeat their enemies by simply boring them into defeat. Shrubs employ sharp barbs as a mechanism of defense and attack. Each time an enemy strikes the shrub, they are damaged by these thorns. Shrubs also have the capability to shoot our these thorns as an offensive mechanism. Shrub are able to navigate this world through the help of their trusty butler Gregory.";
     }
 
-    public void specialize() {
-        _attack = .75;
-	_defense = 20;
-    }
-
 }//end class Shrub

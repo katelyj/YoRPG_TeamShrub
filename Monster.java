@@ -18,12 +18,5 @@ public class Monster extends Character {
 	_attack = 1;
     }
 
-    public String about() {
-	return "";
-    }
-
-    public void specialize() {
-
-    }
     
 }//end class Monster
